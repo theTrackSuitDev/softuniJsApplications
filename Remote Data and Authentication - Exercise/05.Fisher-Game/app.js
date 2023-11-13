@@ -1,13 +1,6 @@
 // Clear initial catches
 let catchesFieldset = document.querySelector("#main");
-//catchesFieldset.remove();
-
 let homeSection = document.querySelector("#home-view");
-// let instruction = document.createElement("p");
-// instruction.textContent = "Click to load cathes";
-// instruction.style.display = "block";
-// instruction.style.textAlign = "center";
-// homeSection.insertBefore(instruction, document.querySelector("aside"));
 
 catchesFieldset.style.border = "none";
 catchesFieldset.innerHTML = "";
