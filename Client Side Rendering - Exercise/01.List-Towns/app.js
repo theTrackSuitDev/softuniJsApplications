@@ -10,7 +10,7 @@ let template = (arr) => html`
     ${arr.map((town) => html`
     <li>${town}</li>
     `)}
-`;
+</ul>`;
 
 function createList(event) {
     event.preventDefault(); 
